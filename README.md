@@ -23,4 +23,6 @@ To get it to initially work, you will need to add an external JAR file after you
 9. Select the "servlet-api"
 10. Apply - and your errors should be gone
 
-How it works is through get and not post. You will need to (while running tomcat) access your localhost, and then insert two values to add. For example: http://localhost:8080/calculator/calculatorServlet?num1=10&num2=20 - where num1 is 10, and num2 is 20, causing the total to be 30.
+How it all works is beyond me, but if you type in this website (while running the program in Eclipse/Tomcat) it'll work: http://localhost:8080/calculatorClient/sampleCalculatorServletProxy/TestClient.jsp?endpoint=http://localhost:9374/calculator/services/calculatorServlet
+
+*note: your ports may be different, depending on your localhost setup.
